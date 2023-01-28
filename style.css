@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: rgb(203, 199, 199);
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+}
+
+.logo {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.8em;
+  color: #3a6cf4;
+}
+
+.navigation a {
+  font-weight: 500;
+  font-size: 1.1em;
+  color: #3a6cf4;
+  padding-left: 30px;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  color: black;
+  font-weight: 800;
+}
+
+section {
+  padding: 100px 200px;
+}
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url(Asits/photos/IMG-20220914-WA0082.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.main h3 {
+  color: rgba(243, 243, 230, 0.788);
+}
+.main h4 {
+  color: whitesmoke;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  font-size: 3em;
+  font-weight: 700;
+}
+.main span {
+  color: rgb(223, 223, 223);
+  font-weight: 700;
+  font-size: 2.8em;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.Botton {
+  display: inline-block;
+  font-size: 1.1em;
+  font-weight: 600;
+  letter-spacing: 2px;
+  border-radius: 15px;
+  background-color: #3a6cf4;
+  text-decoration: none;
+  color: aliceblue;
+  padding: 0.9375em;
+  margin-bottom: 40px;
+  transition: 0.7s ease;
+}
+.Botton:hover {
+  background-color: #051e64;
+  transform: scale(1.1);
+  font-weight: bold;
+}
+.icons a {
+  color: rgb(255, 253, 250);
+  font-size: 1.5em;
+  padding-right: 25px;
+}
+.icons a :hover {
+  transform: scale(1.1);
+  color: black;
+}
+.title {
+  color: #3a6cf4;
+  font-size: 2.2em;
+  font-weight: 800;
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+.contant {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.card {
+  width: 21.25em;
+  background-color: #fff;
+  box-shadow: 0 25px 25px rgba(1, 1, 1, 20%);
+  margin: 50px;
+  border-radius: 10px;
+  padding: 20px;
+  transition: 0.7s ease;
+  text-align: center;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.discrebtion h3 {
+  color: #3a6cf4;
+  font-weight: 700;
+  font-size: 1.2em;
+  margin: 10px;
+}
+
+.icon {
+  font-size: 8em;
+  color: #3a6cf4;
+}
+.Projects {
+  background-color: rgb(0, 0, 0);
+}
+.Card-project {
+  background-color: #fff;
+  border: solid 3px #fff;
+  border-radius: 10px;
+  min-height: 14em;
+  width: 23em;
+  overflow: hidden;
+  margin: 10px;
+  transition: 0.7s ease;
+}
+.Card-project:hover {
+  transform: scale(1.1);
+}
+/* ------------------------------------ */
+.photo-card img {
+  margin-top: 100px;
+
+  width: 100%;
+}
+.photo-card video {
+  width: 100%;
+}
+.video-card video {
+  /* BMI  */
+  margin-top: 250px;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+/* -------------------------------------- */
+.video {
+  text-align: center;
+  justify-content: center;
+}
+.Card-project:hover .photo-card {
+  opacity: 0.9;
+}
+.proj-info {
+  padding: 1em;
+  font-size: 0.8em;
+}
+.project-titel {
+  justify-content: space-between;
+  display: flex;
+  font-weight: 800;
+  margin-top: 10px;
+  padding: 0px 10px 10px 10px;
+}
+.more-details {
+  text-decoration: none;
+  color: #3a6cf4;
+}
+.more-details:hover {
+  color: black;
+}
+.contact-discrebtion p {
+  font-weight: bold;
+}
+.copyrihts {
+  background-color: black;
+}
+.copyrihts p {
+  color: white;
+  text-align: center;
+}
+.copyrihts a {
+  color: antiquewhite;
+}
+.project-titel span:hover {
+  background-color: #3a6cf4;
+  border-radius: 5px;
+  padding: 3px;
+}
+.Card-project video {
+  display: flex;
+  left: 2px;
+  top: 152px;
+}
